@@ -40,7 +40,7 @@ public class MainExample {
 
         System.out.println(clientDTO);
 
-        // Anonymous Inner Class for One Time Using
+        // Anonymous Inner Class for One Time Usage
         modelMapper = new ModelMapper();
 
         modelMapper.addMappings(new PropertyMap<Client, ClientDTO>() {
